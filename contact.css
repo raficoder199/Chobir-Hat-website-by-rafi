@@ -1,0 +1,143 @@
+
+@font-face {
+    font-family: neu;
+    src: url(./NeueHaasDisplayMediu.ttf);
+}
+
+@font-face {
+    font-family: neu;
+    font-weight: 100;
+    src: url(./NeueHaasDisplayLight.ttf);
+}
+
+@font-face {
+    font-family: neu;
+    font-weight: 200;
+    src: url(./NeueHaasDisplayRoman.ttf);
+}
+a:-webkit-any-link {
+    color: rgba(0, 26, 255, 0.712);
+    cursor: pointer;
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: #EFEAE3;
+    
+}
+
+
+
+#bottom-part2 {
+    width: 20%;
+    padding-bottom: 3vw;
+    /* background-color: aqua; */
+}
+
+#bottom-part2 img {
+    width: 100%;
+    border-radius: 35px;
+    padding: ;
+}
+
+#bottom-part2 p {
+    font-weight: 200;
+    margin-top: 2vw;
+    font-size: 1vw;
+}
+#footer-div {
+    height: 20vh;
+    width: 100%;
+    background-color: red;
+    overflow: hidden;
+}
+
+.call{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 1px;
+    font-size: 5vw;
+    color: #f7eeee;
+
+}
+.logo{
+    color: black;
+    filter: invert();
+    width: 130px;
+    margin-top: -28px;    
+}
+nav h3 {
+    display: none;
+    text-decoration: none;
+}
+nav {
+    padding: 0vw 0vw;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+    justify-content: space-between;
+    
+}
+a:-webkit-any-link {
+    color: rgb(27 28 28 / 71%);
+   
+    text-decoration: none;
+}
+
+
+
+
+@media (max-width:600px){
+#bottom-part2 {
+    padding-bottom: 6vw;
+        width: 70%;
+        /* background-color: aqua; */
+        padding-left: 10vw;
+    }
+
+    #bottom-part2 img {
+        width: 100%;
+        border-radius: 35px;
+        padding: 0px;
+    }
+
+    #bottom-part2 p {
+       font-weight: 700;
+        margin-top: 3vw;
+        font-size: 4vw;
+    }
+    nav h3 {
+        display: block;
+        padding: 3vw 5vw;
+        border: 1px solid #ababab;
+        border-radius: 50px;
+        font-size: 4vw;
+        font-weight: 200;
+        padding-left: 10vw;
+        text-decoration: none;
+        
+    }
+    .call{
+        font-size: 10vw;
+        margin-top: 6vw;
+    
+    }
+    #bottom-part2 h1 {
+        padding-top: 6vw;
+        text-shadow: 1vw 1vw 3vw;
+    }
+    #bottom-part2 h3 {
+        font-size: 8vw;
+        font-weight: 1550;
+        text-shadow: 1vw 1vw 3vw
+
+
+    }
+}
